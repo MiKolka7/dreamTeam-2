@@ -41,3 +41,111 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.polosa {
+	margin: 0 auto;
+	width: 42px;
+	height: 2px;
+	background-color: #d55727;
+}
+
+.services {
+	margin-bottom: 118px;
+}
+
+.services ul {
+	text-align: center;
+}
+
+.services li {
+	margin-left: 206px;
+}
+
+.services h2 {
+	text-align: center;
+	line-height: 1;
+	color: black;
+	font-family: Tahoma;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 14px;
+	text-transform: uppercase;
+	margin: 72px 0 92px;
+}
+
+.services_item {
+ 	display: inline-block;
+    margin-right: 5px;
+    padding: 3px;
+    vertical-align: top;
+}
+
+.services_img_1,
+.services_img_2,
+.services_img_3 {
+	width: 64px;
+	height: 63px;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: #d55727;
+	background-image: url(img/icon-list.png);
+	background-repeat: no-repeat;
+	background-position: 50%;	
+}
+
+.services_img_1 {
+	background-image: url(img/icon-list.png);
+}
+
+.services_img_2 {
+	background-image: url(img/icon-pen.png);
+}
+
+.services_img_3 {
+	background-image: url(img/icon-draw.png);
+}
+
+.services_text {
+	line-height: 2;
+	color: black;
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 36px;
+}
+
+.services_banner_backgroud {
+	background-image: url(img/bg-time.png);
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+.services_banner_img {
+	width: 1085px;
+	height: 366px;
+	margin: 33px 55px 38px 60px;
+}
+
+
+.portfolio h2 {
+	text-align: center;
+	line-height: 1;
+	color: black;
+	font-family: Tahoma;
+	font-size: 40px;
+	font-weight: 400;	
+	line-height: 14px;
+	text-transform: uppercase;
+	margin: 72px 0 92px;
+}
+
+.portfolio li {
+	display: inline-block;
+}
+
+.portfolio img {
+	width: 33,3%;
+}
+
