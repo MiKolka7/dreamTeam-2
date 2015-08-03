@@ -58,7 +58,7 @@ table {
 }
 
 .services li {
-	margin-left: 206px;
+	margin-top: 206px;
 }
 
 .services h2 {
@@ -68,9 +68,8 @@ table {
 	font-family: Tahoma;
 	font-size: 40px;
 	font-weight: 400;
-	line-height: 14px;
 	text-transform: uppercase;
-	margin: 72px 0 92px;
+	margin: 73px 0 26px 0;
 }
 
 .services_item {
@@ -136,16 +135,21 @@ table {
 	font-family: Tahoma;
 	font-size: 40px;
 	font-weight: 400;	
-	line-height: 14px;
 	text-transform: uppercase;
-	margin: 72px 0 92px;
+	margin: 73px 0 26px 0;
+}
+
+.portfolio ul {
+	margin-top: 63px;
+	width: 100%;
 }
 
 .portfolio li {
 	display: inline-block;
+	width: 33%;
 }
 
 .portfolio img {
-	width: 33,3%;
+	width: 100%;
 }
 
