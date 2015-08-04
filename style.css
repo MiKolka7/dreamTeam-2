@@ -1,42 +1,124 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+
+
+body {
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+header {
+	background-image: url(img/bg-header.png);
+	background-size: cover;
+	width: 100%;
+	
+
+
+
 }
-body {
-	line-height: 1;
+
+.logo {
+	padding: 200px 0;
+	text-align: center;
+	
+
 }
-ol, ul {
-	list-style: none;
+
+.arr {
+
+	position: absolute;
+	margin-left: 96%;
+	margin-top: 10%;
+	background-color: #36b7b3;
+	padding-right: 13px;
+	padding-left: 13px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+
 }
-blockquote, q {
-	quotes: none;
+
+
+.menu {
+		
+		font-size: 15px;
+		text-align: center;
+		padding-top: 20px; 
+		padding-bottom: 20px;
+		background-color: #36b7b3;
+		font-family: helvetica;
+		font-weight: lighter;
+		
+		
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+.menu-item {
+		color: #ffffff;
+		padding: 10px;
+
+
 }
+
+.menu a:hover {
+		background-color: #d55727;
+		cursor: pointer;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+
+.title1 {
+	margin-top: 60px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	text-align: center;
+	font-family: helvetica;
+	font-weight: 300;
+	font-size: 38px;
+}
+
+hr {
+	border: none; 
+    background-color: #d55727; 
+    color: #d55727; 
+    height: 2px;
+    width: 40px;
+}
+
+.aboutme {
+	margin-left: 17%;
+	margin-bottom: 600px;
+	
+
+
+}
+
+.txt1 {
+	width: 27%;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 16px;
+	margin-top: 120px;
+	float: left;
+	line-height: 22px;
+
+
+
+}
+
+
+
+.bird {
+	position: absolute;
+	width: 55%;
+	margin-left: 40px;
+	margin-top: -110px;
+	margin-right: 0;
+	padding: 0;
+
+
+	
+}
+<<<<<<< Updated upstream
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -50,15 +132,21 @@ table {
 }
 
 .services {
-	margin-bottom: 118px;
+	margin-bottom: 100px;
+	margin-top: 60px;
+	background-color: #f8f8f8;
+
 }
+
+
 
 .services ul {
 	text-align: center;
+	
 }
 
 .services li {
-	margin-top: 206px;
+	margin-top: 60px;
 }
 
 .services h2 {
@@ -70,6 +158,7 @@ table {
 	font-weight: 400;
 	text-transform: uppercase;
 	margin: 73px 0 26px 0;
+	
 }
 
 .services_item {
@@ -112,6 +201,7 @@ table {
 	font-weight: 400;
 	text-transform: uppercase;
 	margin-top: 36px;
+
 }
 
 .services_banner_backgroud {
@@ -152,4 +242,52 @@ table {
 .portfolio img {
 	width: 100%;
 }
+=======
+
+
+
+
+.bg {
+	width: 100%;
+	background-color: #f8f8f8;	
+}
+.polosa {
+	margin: 0 auto;
+	width: 42px;
+	height: 2px;
+	background-color: #d55727;
+}
+
+.item {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 40px 130px;
+}
+
+.client-title {
+	color: black;
+	font-family: Raleway;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 14px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.triangle {
+	position: relative;
+	top: 50px;
+	pading-top: 50px;
+	margin:0 auto;
+	width: 0;
+    height: 0;
+    border-top: 26px solid #d55727;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    }
+
+
+
+
+>>>>>>> Stashed changes
 
