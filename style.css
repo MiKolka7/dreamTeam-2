@@ -2,12 +2,21 @@
 body {
     margin: 0;
     padding: 0;
+<<<<<<< Updated upstream
+=======
+    font-size: 0;
+>>>>>>> Stashed changes
 }
 
 header {
     background-image: url(img/bg-header.png);
     background-size: cover;
     width: 100%;
+<<<<<<< Updated upstream
+=======
+    margin: 0;
+    padding: 0;
+>>>>>>> Stashed changes
 
 }
 
@@ -19,6 +28,7 @@ header {
 
 .arr {
 
+<<<<<<< Updated upstream
     position: absolute;
     margin-left: 95%;
     margin-top: 10%;
@@ -33,18 +43,45 @@ header {
 .menu {
 
     font-size: 15px;
+=======
+
+	position: absolute;
+    margin-top: 10%;
+	right: 0;
+	background-color: #36b7b3;
+	padding-right: 20px;
+	padding-bottom: 5px;
+    padding-top: 8px;
+}
+
+
+
+.menu {
+
+    
+>>>>>>> Stashed changes
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #36b7b3;
+<<<<<<< Updated upstream
     font-family: helvetica;
     font-weight: lighter;
+=======
+    
+>>>>>>> Stashed changes
 
 }
 
 .menu-item {
     color: #ffffff;
     padding: 10px;
+<<<<<<< Updated upstream
+=======
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 13.5px;
+>>>>>>> Stashed changes
 
 }
 
@@ -59,7 +96,11 @@ a {
 
 .title1 {
     margin-top: 60px;
+<<<<<<< Updated upstream
     margin-bottom: 0;
+=======
+    margin-bottom: 15px;
+>>>>>>> Stashed changes
     padding-bottom: 0;
     text-align: center;
     font-family: helvetica;
@@ -67,6 +108,7 @@ a {
     font-size: 38px;
 }
 
+<<<<<<< Updated upstream
 hr {
     border: none;
     background-color: #d55727;
@@ -75,6 +117,10 @@ hr {
     width: 40px;
 }
 
+=======
+
+
+>>>>>>> Stashed changes
 .aboutme {
     margin-left: 17%;
     margin-bottom: 600px;
