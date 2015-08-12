@@ -84,7 +84,7 @@ hr {
 
 .aboutme {
     margin-left: 17%;
-    margin-bottom: 600px;
+    margin-bottom: 490px;
 
 }
 
@@ -123,9 +123,10 @@ table {
 }
 
 .services {
-    margin-bottom: 100px;
-    margin-top: 60px;
+    
+   
     background-color: #f8f8f8;
+    padding-top: 42px;
 
 }
 
@@ -135,7 +136,8 @@ table {
 }
 
 .services li {
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .services h2 {
@@ -146,7 +148,7 @@ table {
     font-size: 40px;
     font-weight: 400;
     text-transform: uppercase;
-    margin: 73px 0 26px 0;
+    margin: 20px 0 26px 0;
 
 }
 
